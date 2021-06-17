@@ -387,7 +387,7 @@ transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover .overlayy {
-background-color: rgba(0, 0, 0, 0.904);
+background-color: rgba(226, 40, 40, 0.904);
 }
 
 .hovereffect img {
@@ -405,7 +405,7 @@ position: relative;
 /* margin-top: 15px;
 font-size: 17px;
 padding: 10px; */
-background: rgba(0, 0, 0, 0.6);
+background: rgba(204, 255, 21, 0.973);
 -webkit-transform: translateY(45px);
 -ms-transform: translateY(45px);
 transform: translateY(45px);
@@ -435,10 +435,10 @@ transform: scale(0);
 transition: all 0.4s ease-in-out;
 font-weight: normal;
 width: 80%;
-margin-top: -25%;
+margin-top: -20%;
 padding: 5%;
 padding-top: 30%;
-height: 55%; 
+height: 50%; 
 }
 
 .hovereffect:hover a.info {
