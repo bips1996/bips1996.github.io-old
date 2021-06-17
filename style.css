@@ -402,21 +402,18 @@ text-transform: uppercase;
 color: #ffffff;
 text-align: center;
 position: relative;
-/* margin-top: 15px;
-font-size: 17px;
-padding: 10px; */
-background: rgba(204, 255, 21, 0.973);
--webkit-transform: translateY(45px);
--ms-transform: translateY(45px);
-transform: translateY(45px);
+background: rgba(204, 255, 21, 0);
+-webkit-transform: translateY(200%);
+-ms-transform: translateY(200%);
+transform: translateY(200%);
 -webkit-transition: all 0.4s ease-in-out;
 transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover h2 {
--webkit-transform: translateY(15px);
--ms-transform: translateY(15px);
-transform: translateY(15px);
+-webkit-transform: translateY(10%);
+-ms-transform: translateY(10%);
+transform: translateY(10%);
 }
 
 .hovereffect a.info {
@@ -439,6 +436,7 @@ margin-top: -20%;
 padding: 5%;
 padding-top: 30%;
 height: 50%; 
+font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
 }
 
 .hovereffect:hover a.info {
