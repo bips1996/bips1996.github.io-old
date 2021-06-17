@@ -354,8 +354,8 @@ p.about-description {
 }
 .pj-list {
   margin:auto;
-  width:250px;
-  height: 250px;
+  width: 40vh;
+  height: 40vh;
   margin: 10px ;
 }
 /* effect-uncover*/
