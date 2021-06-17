@@ -4,13 +4,13 @@ var i = 0,
     isParagraph = false;
 
 var textArray = [
-  "Programmer 🔹 Problem Solver 🔹 Conservationist| 💡I will love to have chat on solutions.Just come up with a Problem💡"
+  "Full Stack Dveloper 🔹 Problem Solver 🔹 Conservationist| 💡I will love to have chat on solutions.Just come up with a Problem💡"
 ];
 
-var speedForward = 100,
+var speedForward = 50,
     speedWait = 1000,
     speedBetweenLines = 1000,
-    speedBackspace = 25;
+    speedBackspace = 20;
 
 typeWriter("output", textArray);
 
