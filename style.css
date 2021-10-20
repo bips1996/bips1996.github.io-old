@@ -319,7 +319,7 @@ img.bips_logo {
 }
 
 .about h1 {
-    color: #051225;
+    color: #af8404;
     ;
     text-transform: uppercase;
     font-size: 2.1rem;
@@ -329,7 +329,7 @@ img.bips_logo {
 .about hr {
     margin-top: -2%;
     width: 50%;
-    border-top: 5px solid rgb(34, 37, 63);
+    border-top: 5px solid #af8404;
 }
 
 p.about-description {
@@ -361,195 +361,6 @@ p.about-description {
     margin: auto;
     padding: auto;
 }
-
-.pj-list {
-    margin: auto;
-    width: 40vh;
-    height: 40vh;
-    margin: 10px;
-}
-
-
-/* effect-uncover*/
-
-.project-box {
-    margin-top: 30px;
-}
-
-.hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-}
-
-.hovereffect .overlayy {
-    width: 40vh;
-    height: 40vh;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(100, 99, 13, 0);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.hovereffect:hover .overlayy {
-    background-color: rgba(226, 40, 40, 0.904);
-}
-
-.hovereffect img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.hovereffect h2 {
-    text-transform: uppercase;
-    color: #ffffff;
-    text-align: center;
-    position: relative;
-    background: rgba(204, 255, 21, 0);
-    -webkit-transform: translateY(200%);
-    -ms-transform: translateY(200%);
-    transform: translateY(200%);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.hovereffect:hover h2 {
-    -webkit-transform: translateY(10%);
-    -ms-transform: translateY(10%);
-    transform: translateY(10%);
-}
-
-.hovereffect a.info {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: transparent;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    font-weight: normal;
-    width: 32vh;
-    height: 24vh;
-    /* margin-top: -20%;
-    padding: 5%;
-    padding-top: 20%; */
-    font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    ;
-}
-
-.hovereffect:hover a.info {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-.hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
-}
-
-
-/* .item{
-  width:250px;
-  height: 250px;
-  background-color: white;
-  position: relative;
-  display: inline-block;
-  margin: 1% 2% 1% 0%;
-  overflow: hidden;
-  margin-top: 30px;
-  box-shadow: 2px 3px 10px #444444;
-}
-
-.item .overlay{
-  color: #000;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffffbe;
-  opacity: 0;
-  transition: all 0.5s ease;
-  position: absolute;
-  top: 0; 
-  bottom: 0;
-  
-}
-
-.uncover .overlay span:nth-child(1){
-  position: absolute;
-  left: 50%;
-  top: 10%;
-  font-size: 80px;
-  font-weight: bold;
-  font-family: coustard;
-  transform: translateX(-50%);
-  opacity: 0;
-}
-
-.uncover .overlay span:nth-child(2){
-  position: absolute;
-  top: 30%;
-  left: 45%;
-  font-size: 17px;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  opacity: 0;
-}
-
-.uncover .overlay span:nth-child(3){
-  height: 30px;
-  background-color: #000;
-  position: absolute;
-  top: 15%;
-  opacity: 0;
-}
-
-.uncover .overlay span:nth-child(4){
-  height: 30px;
-  background-color: #000;
-  position: absolute;
-  top:80%;
-  left: 25%;
-  opacity: 0;
-}
-
-.uncover .overlay:hover{
-  opacity: 0.9;
-}
-
-.uncover .overlay:hover span:nth-child(1){
-  animation: fadein 0.6s forwards;
-    animation-delay: 0.5s;
-}
-
-.uncover .overlay:hover span:nth-child(2){
-  animation: fadein 0.6s forwards;
-  animation-delay: 0.75s;
-}
-
-.uncover .overlay:hover span:nth-child(3){
-  animation: draw-left 0.7s;
-}
-
-.uncover .overlay:hover span:nth-child(4){
-  animation: draw-right 0.7s;
-  animation-delay: 0.6s;
-} */
 
 @keyframes draw-left {
     0% {
@@ -600,97 +411,6 @@ p.about-description {
         flex-direction: column;
         align-items: center;
     }
-    .pj-list {
-        margin: auto;
-        width: 70vw;
-        height: 70vw;
-        margin: 10px;
-    }
-    .hovereffect a.info {
-        display: inline-block;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #fff;
-        border: 1px solid #fff;
-        background-color: transparent;
-        opacity: 0;
-        filter: alpha(opacity=0);
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        transform: scale(0);
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-        font-weight: normal;
-        width: 54vw;
-        height: 40vw;
-        margin-top: -15%;
-        padding: 5%;
-        padding-top: 20%;
-        font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-        ;
-    }
-}
-
-.blog-section {
-    margin-top: 12%;
-    padding-top: 3%;
-    justify-content: center;
-}
-
-.inner-blog-section {
-    width: 90%;
-    margin: auto;
-}
-
-.blog-heading h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #b6b6b6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.blog-title h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-span.time-stamp {
-    color: #b6b6b6;
-    font-size: 1.1rem !important;
-}
-
-span.blog-category {
-    color: #858080;
-    font-size: 0.9rem !important;
-}
-
-span.blog-main a {
-    text-decoration: none;
-    color: #007596;
-    font-size: 1.2rem !important;
-}
-
-span.read-time {
-    color: #858080;
-    font-size: 0.9rem !important;
-}
-
-.blog-description img {
-    margin-left: 5%;
-    width: 90%;
-    height: 400px;
-}
-
-.blog-description p {
-    padding-top: 20px;
-    color: #b6b6b6;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    line-height: 30px;
-    text-align: justify;
 }
 
 .contact-section {
@@ -703,10 +423,16 @@ span.read-time {
     margin: auto;
 }
 
+.contact-section hr {
+    margin-top: -2%;
+    width: 50%;
+    border-top: 5px solid #af8404;
+}
+
 .contact-heading {
     text-align: center;
     text-transform: uppercase;
-    color: #b6b6b6;
+    color: #af8404;
     padding-top: 10px;
     padding-bottom: 10px;
 }
