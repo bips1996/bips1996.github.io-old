@@ -88,11 +88,11 @@ main {
 }
 
 .fa-primary {
-    color: #0296be;
+    color: #d3c500;
 }
 
 .fa-secondary {
-    color: #007596;
+    color: #a09300;
 }
 
 .fa-primary,
@@ -177,8 +177,8 @@ main {
 .dark {
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #0a192f;
-    --bg-secondary: #061122;
+    --bg-primary: #232b33;
+    --bg-secondary: #1b2127;
 }
 
 .light {
