@@ -1,8 +1,3 @@
-/* Variables */
-
-
-/* Mixins */
-
 body {
     font-family: "Dosis", sans-serif;
 }
@@ -15,14 +10,14 @@ body {
 }
 
 .container .box {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #0c2131c4;
     margin: 20px;
     transition: 0.3s all ease-in-out;
     position: relative;
-    box-shadow: 0px 0px 15px #af8404;
+    /* box-shadow: 0px 0px 15px #fffefd; */
     /* Link */
 }
 
@@ -37,20 +32,20 @@ body {
 }
 
 .container .box .boxContent .icon {
-    color: #af8404;
-    font-size: 48px;
+    color: #fffefd;
+    font-size: 35px;
     padding-top: 15px;
 }
 
 .container .box .boxContent .title {
-    font-size: 24px;
-    color: #af8404;
+    font-size: 16px;
+    color: #fffefd;
     font-weight: bold;
 }
 
 .container .box .boxContent .desc {
-    color: #af8404;
-    font-size: 16px;
+    color: #fffefd;
+    font-size: 12px;
 }
 
 .container .box a {
@@ -62,18 +57,20 @@ body {
 }
 
 .container .strongElement {
-    background-color: #cfcfcf;
-    border-radius: 10px
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Consolas;
 }
 
 .container .box:hover {
-    background: linear-gradient(130deg, #493804 0%, #af8404 100%);
+    background: linear-gradient(130deg, #8f8f8f 0%, #f1f1f0 100%);
     box-shadow: none;
 }
 
 .container .box:hover .icon,
 .container .box:hover .title,
-.container .box:hover .desc {
-    color: white;
+.container .box:hover .desc,
+.container .box:hover .strongElement {
+    color: #0c2131;
     transition: 0.3s all ease-in-out;
 }

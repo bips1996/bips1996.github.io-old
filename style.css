@@ -11,7 +11,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -20,7 +20,6 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
     background: #1e1e24;
-    ;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -177,8 +176,8 @@ main {
 .dark {
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #232b33;
-    --bg-secondary: #1b2127;
+    --bg-primary: #0c2131;
+    --bg-secondary: #163149;
 }
 
 .light {
@@ -212,8 +211,8 @@ main {
 }
 
 header {
-    /* background:url("images/f1bg.png") no-repeat 50% 50% fixed; */
-    background: #e9ecef;
+    background: url("images/bg.png") no-repeat -10% -10% fixed;
+    /* background: #e9ecef; */
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -222,7 +221,7 @@ header {
 }
 
 .biplaba-intro-heading p.gratitude {
-    padding-top: 20px;
+    padding-top: 7%;
     color: rgb(11, 77, 49);
     font-size: 1.2rem;
 }
@@ -230,9 +229,9 @@ header {
 .biplaba-intro-heading p.biplaba-name {
     font-weight: bold;
     text-transform: uppercase;
-    color: #81640b;
-    font-size: 2.8rem;
-    letter-spacing: 3px;
+    color: #0c2131;
+    font-size: 1.9rem;
+    letter-spacing: 5px;
 }
 
 .output {
@@ -249,8 +248,15 @@ h2.cursor {
     color: #0b4368;
 }
 
-.cursor::after {
-    content: '';
+h2.my-desc {
+    letter-spacing: 2px;
+    color: #0b4368;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+p.cursor::after {
+    content: "";
     display: inline-block;
     margin-left: 5px;
     background-color: #a3a3a3;
@@ -270,24 +276,68 @@ p.cursor::after {
 }
 
 img.bips_logo {
-    padding: 15px;
+    /* padding: 10px; */
     border-radius: 50%;
-    border: 10px solid #9c8d04;
-    height: 130px;
-    width: 130px;
+    border: 1px solid #0c2131;
+    height: 150px;
+    width: 150px;
     animation: mymove 5s infinite;
-    box-shadow: 1px 1px 2px #9c8d04, 0 0 25px #d8c623, 0 0 5px #2d2e1f;
+    box-shadow: 1px 1px 2px #0c2131, 0 0 25px #0c2131, 0 0 5px #0c2131;
+}
+
+.header .span {
+    margin-bottom: 15px !important;
+    font-size: 16px !important;
+    display: inline-block !important;
+}
+
+.underline-opening:after,
+.underline-opening:before {
+    position: absolute;
+    z-index: -1;
+}
+
+.underline-opening:after {
+    content: "";
+    width: 3px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.underline-opening:focus:after,
+.underline-opening:hover:after {
+    width: 100%;
+    height: 3px;
+}
+
+.underline-opening:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.underline-opening:focus:before,
+.underline-opening:hover:before {
+    width: 100%;
+    height: 3px;
 }
 
 @keyframes mymove {
     25% {
-        border-color: #d8c623;
+        border-color: #0c2131;
     }
     50% {
-        border-color: #717718;
+        border-color: #122f46;
     }
     75% {
-        border-color: #2d2e1f;
+        border-color: #173d5a;
     }
 }
 
@@ -320,7 +370,6 @@ img.bips_logo {
 
 .about h1 {
     color: #af8404;
-    ;
     text-transform: uppercase;
     font-size: 2.1rem;
     font-weight: bold;
@@ -366,7 +415,7 @@ p.about-description {
     0% {
         opacity: 0;
         width: 0px;
-        left: 75%
+        left: 75%;
     }
     50% {
         opacity: 1;
@@ -404,13 +453,20 @@ p.about-description {
     }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width: 820px) {
     .project {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+/* contact section */
+
+.footer {
+    background: #102a3f;
 }
 
 .contact-section {
@@ -426,23 +482,19 @@ p.about-description {
 .contact-section hr {
     margin-top: -2%;
     width: 50%;
-    border-top: 5px solid #af8404;
+    border-top: 5px solid #ffffff;
 }
 
 .contact-heading {
     text-align: center;
     text-transform: uppercase;
-    color: #af8404;
+    color: #ffffff;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .contact-description p {
-    padding-top: 20px;
     color: #b6b6b6;
-    font-size: 1.2rem;
     letter-spacing: 1px;
-    line-height: 30px;
 }
 
 .contact-description p a {
@@ -450,43 +502,72 @@ p.about-description {
     color: #b6b6b6;
 }
 
-.socials {
-    margin-top: 5%;
-}
-
-.social-media {
-    margin: auto;
-}
-
-ul.social-icons {
+.social {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 0;
 }
 
-ul.social-icons li {
-    list-style: none;
-    letter-spacing: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
+.social div {
+    display: flex;
+    list-style-type: none;
 }
 
-ul.social-icons li a {
-    display: block;
+.social div a i.fb {
+    color: rgb(121, 121, 121);
+}
+
+.social div a i.fb:hover {
+    color: #5183e6;
+}
+
+.social div a i.git {
+    color: rgb(121, 121, 121);
+}
+
+.social div a i.git:hover {
+    color: #9266d4;
+}
+
+.social div a i.in {
+    color: rgb(121, 121, 121);
+}
+
+.social div a i.in:hover {
+    color: #1797d3;
+}
+
+.social div a i.insta {
+    color: rgb(121, 121, 121);
+}
+
+.social div a i.insta:hover {
+    color: #db33a6;
+}
+
+.social div a i.mail {
+    color: rgb(121, 121, 121);
+}
+
+.social div a i.mail:hover {
+    color: #fa4939;
+}
+
+.social a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
     text-decoration: none;
-    padding: 15px;
-    text-align: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    font-size: 22px;
-    outline: 0;
-    background-color: #9cafca;
-    margin-top: 10px;
+    transition: cubic-bezier(0.95, 0.32, 0.37, 0.1 0.31);
 }
 
-ul.social-icons li a i {
-    padding-left: 4px;
-    padding-top: 2px;
+@media screen and (max-width: 820px) {
+    .social {
+        padding-bottom: 30%;
+    }
 }
