@@ -21,6 +21,12 @@ body {
     /* Link */
 }
 
+.project-heading hr {
+    margin-top: -1%;
+    width: 30%;
+    border-top: 2px solid #ffffff;
+}
+
 .container .box .boxContent {
     display: flex;
     flex-direction: column;
