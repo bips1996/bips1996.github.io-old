@@ -392,16 +392,16 @@ img.bips_logo {
 }
 
 .about h1 {
-    color: #af8404;
+    color: #163149;
     text-transform: uppercase;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
 .about hr {
-    margin-top: -2%;
+    margin-top: -1%;
     width: 50%;
-    border-top: 5px solid #af8404;
+    border-top: 3px solid #163149;
 }
 
 p.about-description {
@@ -423,6 +423,7 @@ p.about-description {
     color: #b6b6b6;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 1.7rem;
 }
 
 .project {
@@ -513,6 +514,10 @@ p.about-description {
     text-transform: uppercase;
     color: #ffffff;
     padding-top: 10px;
+}
+
+.contact-heading h3 {
+    color: #ffffff;
 }
 
 .contact-description p {
